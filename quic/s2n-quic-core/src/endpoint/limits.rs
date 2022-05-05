@@ -4,7 +4,7 @@
 use crate::{
     event::{api::SocketAddress, IntoEvent},
     inet,
-    time::Timestamp,
+    event::Timestamp,
 };
 
 /// Outcome describes how the library should proceed on a connection attempt. The implementor will
